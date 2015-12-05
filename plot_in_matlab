@@ -1,0 +1,18 @@
+ figure;
+ tmp = load(dire(1).name);
+ tmp = mean(reshape(tmp,5,length(tmp)/5),2);
+ plot([0.2,0.4,0.6,0.8],tmp,'-sk');
+ grid on;
+ 
+ hold on;
+ tmp = load(dire(2).name);
+ plot([0.2,0.4,0.6,0.8],tmp,'-^r');
+ tmp = load(dire(3).name);
+ plot([0.2,0.4,0.6,0.8],tmp,'-+b');
+ tmp = load(dire(4).name);
+ plot([0.2,0.4,0.6,0.8],tmp,'-*c');
+ tmp = load(dire(5).name);
+ plot([0.2,0.4,0.6,0.8],tmp,'-.g');
+ tmp = load(dire(6).name);
+ plot([0.2,0.4,0.6,0.8],tmp,'-.m');
+  h = legend('ly 200','ly 50','ly 600','average','complete','greedy',-1);
