@@ -22,7 +22,7 @@
 %   legend('Parameter 1','Parameter 2','Parameter 3','Parameter 4')
 %   ylabel('Y Value')
 %   set(h(1),'FaceColor','k');
-%
+%   legend('complete','ly 20','ly 30','ly 40','average','greedy',2);
 %
 %   Asymmetric Example:
 %   y = randn(3,4);         % random y values (3 groups of 4 parameters)
