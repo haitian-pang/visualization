@@ -1,0 +1,6 @@
+ [X,Y] = meshgrid(phis,log(factorcs));
+ figure;
+ contour(Y,X,res',30);
+ xlabel('log(factorc)');
+ ylabel('phi');
+ title('payoff');
